@@ -1,0 +1,18 @@
+.wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100vh;
+  /* align-items는 cross axis 방향으로 item을 움직인다.
+여기서 cross axis 방향이란 flex-direction과 수직인 방향을 뜻함. */
+
+  /* justify-content는 main axis 방향으로 item을 옮긴다 */
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: peru;
+  color: white;
+}
